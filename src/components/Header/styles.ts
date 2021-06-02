@@ -13,6 +13,12 @@ export const Container = styled.header`
     &:hover {
       opacity: 0.7;
     }
+
+    @media (max-width: 39em) {
+      img {
+        width: 200px
+      }
+    }
   }
 `;
 
